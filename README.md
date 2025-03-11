@@ -11,16 +11,3 @@ We will be using the **Introduction to Algorithms, 4th Edition** as the primary 
 - Projects
 - Additional resources
 
-## Getting Started
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/CISC3220.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd CISC3220
-    ```
-
-## Contact
-For any questions or concerns, please contact the course instructor.
-
