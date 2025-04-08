@@ -56,15 +56,16 @@ class MinHeap:
         if len(self.heap) == 1:
             return self.heap.pop()
 
-        min_value = self.heap.pop(0)
-        self.heapify(0)
-
+        min_value = self.heap[0]
+        self.heap[0] = self.heap.pop() # Swap with the last element
+        self.heapify(0) # Fix the heap with the new root
         return min_value
 
 
 
     def display(self):
         return self.heap
+    
 
 
 heap = MinHeap([5,4,3,2,1])

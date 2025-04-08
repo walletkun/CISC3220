@@ -78,7 +78,7 @@ class MaxHeap:
         for i in range(n - 1, 0, -1):
             self.heap[0], self.heap[i] = self.heap[i], self.heap[0]
             self.heapify(0, i)
-        
+
 
 
 heap = MaxHeap([5,13,2,25,7,17,20,8,4])
